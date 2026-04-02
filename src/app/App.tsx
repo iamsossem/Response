@@ -1,12 +1,12 @@
-import imgBackground from "../assets/8a64a84ca204cd4bc4f075371baa76192838cc82.png";
-import imgDeviceFrame from "../assets/cb539a879451a5eaca6ab6323fd7d52c1d9326af.png";
-import imgImage1 from "../assets/a5bb04c6e51fb144f4a45175d6a40a4d57122eb0.png";
-import imgImage2 from "../assets/34824412ee030057b26013f4987a47f91c1638ea.png";
-import imgImage3 from "../assets/5df41fc0f915f3e9049eb5c49b269edb1ef4ab76.png";
-import imgImage4 from "../assets/f98ac66209e6ec4bf25b18555c89ea6aa800fc64.png";
-import imgAuthor1 from "../assets/6480a52b4ccf55f226f31501e403af0ce0530229.png";
-import imgAuthor2 from "../assets/3c8413f5b8f065f5e119be497bd42be5d5fa1dfe.png";
-import imgFooterBg from "../assets/ec9ece07e59d387940a98bfe1f094d83aab63bc3.png";
+import imgBackground from "figma:asset/8a64a84ca204cd4bc4f075371baa76192838cc82.png";
+import imgDeviceFrame from "figma:asset/cb539a879451a5eaca6ab6323fd7d52c1d9326af.png";
+import imgImage1 from "figma:asset/a5bb04c6e51fb144f4a45175d6a40a4d57122eb0.png";
+import imgImage2 from "figma:asset/34824412ee030057b26013f4987a47f91c1638ea.png";
+import imgImage3 from "figma:asset/5df41fc0f915f3e9049eb5c49b269edb1ef4ab76.png";
+import imgImage4 from "figma:asset/f98ac66209e6ec4bf25b18555c89ea6aa800fc64.png";
+import imgAuthor1 from "figma:asset/6480a52b4ccf55f226f31501e403af0ce0530229.png";
+import imgAuthor2 from "figma:asset/3c8413f5b8f065f5e119be497bd42be5d5fa1dfe.png";
+import imgFooterBg from "figma:asset/ec9ece07e59d387940a98bfe1f094d83aab63bc3.png";
 
 /* ─────────── Hero Section ─────────── */
 function HeroSection() {
@@ -36,9 +36,7 @@ function HeroSection() {
           {/* Buttons — stacked on mobile, row on sm+ */}
           <div className="flex flex-col w-full gap-[16px] sm:flex-row sm:w-auto sm:flex-wrap sm:justify-center sm:items-end">
             {/* Primary */}
-            <button className="bg-white text-black font-['Inter:Medium',sans-serif] font-medium text-[18px] tracking-[-0.09px] px-[16px] py-[12px] rounded-[12px] leading-[1.45] w-full sm:w-auto cursor-pointer hover:bg-gray-100 transition-colors">
-              Your main offer
-            </button>
+            <button className="bg-[#818cf8] text-white font-['Inter:Medium',sans-serif] font-medium text-[18px] tracking-[-0.09px] px-[16px] py-[12px] rounded-[12px] leading-[1.45] w-full sm:w-auto cursor-pointer hover:bg-[#6366f1] transition-colors text-[#000000]">Your main offer</button>
             {/* Secondary */}
             <button className="relative text-white font-['Inter:Medium',sans-serif] font-medium text-[18px] tracking-[-0.09px] px-[16px] py-[12px] rounded-[12px] leading-[1.45] border-2 border-[rgba(255,255,255,0.15)] w-full sm:w-auto cursor-pointer hover:border-[rgba(255,255,255,0.35)] transition-colors">
               Optional second

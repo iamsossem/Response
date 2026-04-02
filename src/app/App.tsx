@@ -1,12 +1,12 @@
-import imgBackground from "figma:asset/8a64a84ca204cd4bc4f075371baa76192838cc82.png";
-import imgDeviceFrame from "figma:asset/cb539a879451a5eaca6ab6323fd7d52c1d9326af.png";
-import imgImage1 from "figma:asset/a5bb04c6e51fb144f4a45175d6a40a4d57122eb0.png";
-import imgImage2 from "figma:asset/34824412ee030057b26013f4987a47f91c1638ea.png";
-import imgImage3 from "figma:asset/5df41fc0f915f3e9049eb5c49b269edb1ef4ab76.png";
-import imgImage4 from "figma:asset/f98ac66209e6ec4bf25b18555c89ea6aa800fc64.png";
-import imgAuthor1 from "figma:asset/6480a52b4ccf55f226f31501e403af0ce0530229.png";
-import imgAuthor2 from "figma:asset/3c8413f5b8f065f5e119be497bd42be5d5fa1dfe.png";
-import imgFooterBg from "figma:asset/ec9ece07e59d387940a98bfe1f094d83aab63bc3.png";
+import imgBackground from "../assets/8a64a84ca204cd4bc4f075371baa76192838cc82.png";
+import imgDeviceFrame from "../assets/cb539a879451a5eaca6ab6323fd7d52c1d9326af.png";
+import imgImage1 from "../assets/a5bb04c6e51fb144f4a45175d6a40a4d57122eb0.png";
+import imgImage2 from "../assets/34824412ee030057b26013f4987a47f91c1638ea.png";
+import imgImage3 from "../assets/5df41fc0f915f3e9049eb5c49b269edb1ef4ab76.png";
+import imgImage4 from "../assets/f98ac66209e6ec4bf25b18555c89ea6aa800fc64.png";
+import imgAuthor1 from "../assets/6480a52b4ccf55f226f31501e403af0ce0530229.png";
+import imgAuthor2 from "../assets/3c8413f5b8f065f5e119be497bd42be5d5fa1dfe.png";
+import imgFooterBg from "../assets/ec9ece07e59d387940a98bfe1f094d83aab63bc3.png";
 
 /* ─────────── Hero Section ─────────── */
 function HeroSection() {
